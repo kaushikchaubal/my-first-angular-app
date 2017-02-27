@@ -1,3 +1,13 @@
 <p>
   user works!
 </p>
+
+<div *ngFor="let user of users">
+  <h3>{{user.id}}. {{user.name}}</h3>
+  <p>username: {{user.username}}</p>
+  <p>email: {{user.email}}</p><br/>
+
+  <p>{{user.address.street}}, {{user.address.suite}}</p>
+  <p>{{user.address.city}} - {{user.address.zipcode}}</p>
+  <p>{{user.address.geo.lat}}, {{user.address.geo.lng}}</p>
+</div>
