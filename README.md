@@ -7,6 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This project includes examples of the following Angular 2 features:
 - new component
 - new service
+- makes a REST call (to https://jsonplaceholder.typicode.com/users)
 - use of typescript
 - use of rxjs
 
